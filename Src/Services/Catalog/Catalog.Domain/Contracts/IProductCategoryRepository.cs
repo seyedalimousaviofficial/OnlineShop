@@ -3,6 +3,6 @@ using Catalog.Domain.Entities.Products;
 
 namespace Catalog.Domain.Contracts;
 
-public interface IProductRepository:IBaseRepository<Product,int>
+public interface IProductCategoryRepository:IBaseRepository<ProductCategory,int>
 {
 }

@@ -5,9 +5,9 @@ using Catalog.Infrastracture.Repositories.BaseRepositories;
 
 namespace Catalog.Infrastracture.Repositories;
 
-public class ProductRepository : BaseRepository<Product, int>, IProductRepository
+public class ProductBrandRepository : BaseRepository<ProductBrand, int>, IProductBrandRepository
 {
-    public ProductRepository(CatalogDbContext dbContext) : base(dbContext)
+    public ProductBrandRepository(CatalogDbContext dbContext) : base(dbContext)
     {
     }
 }
